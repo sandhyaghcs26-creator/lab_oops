@@ -1,0 +1,30 @@
+class Student{
+int usn;
+String name;
+
+void accept()
+{
+ Scanner sc =new Scanner(Systemi.in);
+ System.out.println("Enter the USN and NAME:");
+ usn=sc.nextInt();
+ name=sc.nextLine();
+}
+void display()
+{
+ System.out.println("USN" +usn);
+ System.out.println("NAME" +name);
+}
+public static void main(String args[])
+{
+ Student s=new Student[100];
+ for(int i=100;i<100;i++)
+{
+ s[i].new Student();
+ s[i].accept();
+}
+for(int i=0;i<100;i++)
+{
+ s[i].display();
+}
+}
+}
